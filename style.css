@@ -1,7 +1,104 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #fdfdfd;
+}
+.section-one{
+    display: flex;
+    padding: 50px;
+}
+span{
+    color: #fe4a2f;
+}
+.first-fa{
+    margin-top: 50px;
+    padding-left: 80px;
+    text-align: justify;
+    line-height: 15px;
+    font-weight: 700;
+}
+.peragarap-one{
+    margin-top: 40px;
+    color: #828282;
+    line-height: 5px;
+}
+a{
+    position: absolute;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 2px 4px 50px#fe4a2f;
+    background: #fe4a2f;
+    color: #fff;
+}
+
+.img-one img{
+    height: 550px;
+    padding-left: 100px;
+    margin-top: -50px;
+}
+.scetion-two{
+    display: flex;
+    height: 320px;
+    background: #fff4ed;
+}
+.second-fa img{
+    height: 100%;
+    width: 100%;
+    padding-left: 180px;
+}
+.pharagaraph-two{
+    margin-top: 20px;
+    padding-left: 390px;
+    padding-right: 300px;
+}
+.third-fa{
+    margin-top: 50px;
+    text-align: center;
+}
+.third-fa h1{
+    padding: 15px;
+}
+.third-fa p{
+    line-height: 8px;
+}
+.section-four{
+    display: flex;
+    margin: 100px;
+    margin-top: 30px;
+    padding: 40px;
+}
+.recipie{
+    width: 30%;
+    height: 40%;
+    padding: 20px;
+    text-align: justify;
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 20px #000;
+}
+.recipie img{
+    height: 180px;
+    width: 320px;
+    border-radius: 10px;
+}
+.section-five{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background: #000;
+    color: #ddd;
 }
